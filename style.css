@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(bg.jpg);
+    background-position: fixed;
+    background-size: cover;
+  }
+  .tv {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+    border: 10px solid black;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8),
+                0 0 40px rgba(0, 255, 255, 0.6),
+                0 0 60px rgba(0, 255, 255, 0.4),
+                0 0 80px rgba(0, 255, 255, 0.2);
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  #gifSpan {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .stand {
+    width: 20%;
+    height: 20px;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  audio {
+    margin: 5px auto;
+    display: block;
+  }
+
+  h1{
+    font-family: "Bagel Fat One", system-ui;
+    font-size: 5pc;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    color: white;
+    position: absolute;
+    top: 0;
+  }
+
+  .tv:after{
+    content: "William";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 10px;
+  }
