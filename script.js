@@ -1,4 +1,4 @@
- var gifUrls = [
+var gifUrls = [
     { url: 'op1.gif', duration: 5000 },
     { url: 'op2.gif', duration: 5000 },
     { url: 'op3.gif', duration: 5000 },
